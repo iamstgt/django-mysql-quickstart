@@ -20,7 +20,7 @@ DATABASES = {
         'NAME': '<your-db-name>',
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '3306'
     }
 }
