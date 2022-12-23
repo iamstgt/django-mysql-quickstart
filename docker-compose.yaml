@@ -19,7 +19,7 @@ services:
       - ./mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: board
+      MYSQL_DATABASE: <your-db-name>
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
       TZ: "Asia/Tokyo"

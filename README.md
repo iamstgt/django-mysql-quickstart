@@ -12,7 +12,13 @@ import pymysql
 pymysql.install_as_MySQLdb()
 ```
 
-## 3. Set up database config in settings.py
+## 3. Set up database config in docker-compose.yaml and settings.py
+```
+environment:
+    MYSQL_ROOT_PASSWORD: root
+    MYSQL_DATABASE: <your-db-name>
+ ```
+
 ```
 DATABASES = {
     'default': {
